@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Learning Center</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <style>
+   *{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #47e4d7;
+}
+
+.navbar a {
+  float: right;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #3874c4(18, 161, 180);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}    
+  </style>
+  
+  <div class="navbar">
+  <a href="#home">About</a>
+  <a href="#news">Contact</a>
+  <a href="#new">Learning</a>
+  <div class="dropdown">
+    <button class="dropbtn">Events 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/C:/Users/fp.73/OneDrive%20-%20Pinellas%20County%20Schools/FBLA%20Project%201/Past%20Events.html"  target="_blank">Past Events</a>
+      <a href="/C:/Users/fp.73/OneDrive%20-%20Pinellas%20County%20Schools/FBLA%20Project%201/Event%20Calender.html" target="_blank">Calender</a>
+    </div>
+  </div>
+   <div class="dropdown"> 
+    <button class="dropbtn"> Application
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/C:/Users/fp.73/OneDrive%20-%20Pinellas%20County%20Schools/FBLA%20Project%201/Application%20member.html" target="_blank">Member</a>
+      <a href="#">Officer</a>
+    </div>
+  </div> 
+   <a href="https://pcsb.revtrak.net/hs/countryside-high/#/list " target="_blank">Donate Here</a>
+</div>
+</head>
+
+<body>
+<style>:root{
+      --border: #999;
+      --white: #ffffff;
+      --hover: #7eb6ff;
+    }
+
+    body{
+      margin:0;
+      background:white;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    .title{
+      text-align:center;
+      font-family:"Great Vibes", cursive;
+      font-size:72px;
+      margin:30px 0 20px;
+      color:#111;
+    }
+
+    .layout{
+      display:flex;
+      max-width:1300px;
+      margin:0 auto;
+      padding:20px 40px;
+      gap:40px;
+    }
+
+
+    
+    .content{
+      flex:1;
+      padding:10px;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      gap:20px;
+    }
+
+ 
+    .pill{
+      width:85%;
+      max-width:700px;
+      background:white;
+      border:2px solid var(--border);
+      border-radius:40px;
+      padding:20px;
+      text-align:center;
+      font-size:18px;
+      text-decoration:none;
+      color:#222;
+      transition:0.25s;
+      display:block;
+    }
+
+    .pill:hover{
+      background:var(--hover);
+      transform:scale(1.02);
+    }
+
+  
+    @media (max-width:900px){
+      .layout{
+        flex-direction:column;
+        align-items:center;
+      }
+
+      .title{
+        font-size:50px;
+      }
+    }</style>
+
+  <div class="title">Learning Center</div>
+
+  <div class="layout">
+
+
+
+    <!-- MAIN CONTENT BUTTONS -->
+    <div class="content">
+      <a href="/C:/Users/fp.73/OneDrive%20-%20Pinellas%20County%20Schools/FBLA%20Project%201/LC%20Bio.html" class="pill">Biology</a>
+      <a href="/C:/Users/fp.73/OneDrive%20-%20Pinellas%20County%20Schools/FBLA%20Project%201/LC%20Chem.html" class="pill">Chemistry</a>
+      <a href="/C:/Users/fp.73/OneDrive%20-%20Pinellas%20County%20Schools/FBLA%20Project%201/LC%20MT.html" class="pill">Medical Topics</a>
+    </div>
+
+  </div>
+
+</body>
+</html>

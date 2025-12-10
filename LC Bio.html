@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Learning Center - Biology</title>
+<link rel="icon" type="image/x-icon" href="/C:/Users/fp.73/OneDrive%20-%20Pinellas%20County%20Schools/FBLA%20Project%201/logo2.png">
+
+<style>
+    body {
+        margin: 0;
+        font-family: "Segoe UI", sans-serif;
+        background: white;
+    }
+
+    /* Header */
+    .header {
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+        font-size: 16px;
+        border-bottom: 1px solid #ccc;
+        background: #47e4d7;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
+
+    /* Layout */
+    .wrapper {
+        display: flex;
+        min-height: calc(100vh - 60px);
+    }
+
+    /* Sidebar */
+    .sidebar {
+        width: 140px;
+        padding: 20px 10px;
+        background: #7eb6ff;
+        border-right: 1px solid #ddd;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+
+    .sidebar p {
+        margin: 0;
+        font-size: 18px;   /* Bigger font */
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .sidebar button {
+        padding: 10px 18px;
+        border: none;
+        background: #4a7aff;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;   /* Slightly larger */
+        font-weight: 600;
+    }
+
+    /* Content */
+    .content {
+        flex: 1;
+        padding: 40px;
+        text-align: center;
+    }
+
+    .title {
+        font-family: "Brush Script MT", "Lucida Handwriting", cursive;  /* Cursive! */
+        font-size: 80px;
+        margin-bottom: 50px;
+    }
+
+    /* Module boxes */
+    .module {
+        display: inline-block;
+        margin: 40px 50px;
+        text-align: center;
+    }
+
+    .pill {
+        padding: 10px 30px;
+        border-radius: 25px;
+        border: 2px solid #444;
+        display: inline-block;
+        margin-bottom: 15px;
+        font-size: 16px;
+        font-weight: 500;
+        background: white;
+    }
+
+    .module-text a {
+        display: block;
+        margin: 4px 0;
+        font-size: 18px;
+        color: #0053ba;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .module-text a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="header">Learning Center</div>
+
+<div class="wrapper">
+
+    <!-- Sidebar with larger font -->
+    <div class="sidebar">
+        <p>Home</p>
+        <p>Biology</p>
+        <p>Chemistry</p>
+        <p>Medical Topics</p>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        <div class="title">Biology</div>
+
+        <!-- Module 1 -->
+        <div class="module">
+            <div class="pill">Genetics and Heredity</div>
+            <div class="module-text">
+                <a href="https://pinellascountyschools-my.sharepoint.com/:p:/r/personal/fc_3m_pcsb_org/Documents/Genetics%20and%20Heredity.pptx?d=wfeed8c6b819f402aa1b69b7fbcc60ace&csf=1&web=1&e=ol8azu" target="_blank">Lesson</a>
+                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=BZM8c9c5GkaGb_3ye_PH_7el9vvnQyxJoKbh_4mQGctUNDIwTkRMTzc1UDJDWTZWVEVPUkRYQTlRMS4u" target="_blank">Quiz</a>
+            </div>
+        </div>
+
+        <!-- Module 2 -->
+        <div class="module">
+            <div class="pill">Microbiology and Immunology</div>
+            <div class="module-text">
+                <a href="https://pinellascountyschools-my.sharepoint.com/:p:/r/personal/fc_3m_pcsb_org/_layouts/15/Doc.aspx?sourcedoc=%7B4F6020A7-C178-4CE0-A0E0-72E1D3D9D070%7D&file=Microbiology%20and%20Immunology.pptx&wdOrigin=OFFICECOM-WEB.MAIN.SEARCH&action=edit&mobileredirect=true" target="_blank">Lesson</a>
+                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=BZM8c9c5GkaGb_3ye_PH_7el9vvnQyxJoKbh_4mQGctUMlRYSUxGOEg2QjBDN1BSMjNFRkhBVFoyOS4u" target="_blank">Quiz</a>
+            </div>
+        </div>
+
+        <!-- Module 3 -->
+        <div class="module">
+            <div class="pill">Human Anatomy and Physiology</div>
+            <div class="module-text">
+                <a href="#">Lesson</a>
+                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=BZM8c9c5GkaGb_3ye_PH_7el9vvnQyxJoKbh_4mQGctUQzFPV0UxSU9RRUYzWlFZMUNVOUlYNzdORy4u" target="_blank">Quiz</a>
+            </div>
+        </div>
+
+        <!-- Module 4 -->
+        <div class="module">
+            <div class="pill">Cell Biology and Biochemistry</div>
+            <div class="module-text">
+                <a href="https://pinellascountyschools-my.sharepoint.com/:p:/r/personal/fc_3m_pcsb_org/_layouts/15/Doc.aspx?sourcedoc=%7B21DAA2D2-6E4C-4A1C-B294-5A8FE068E55F%7D&file=Cell%20Biology%20and%20Biochemistry.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1&ct=1765293335908&wdOrigin=OFFICECOM-WEB.MAIN.EDGEWORTH&cid=66ba3515-a3d7-4540-b832-5f4dfc702a9c&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=4ce576a7-d4d1-4924-97ae-099a22f587bd" target="_blank">Lesson</a>
+                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=BZM8c9c5GkaGb_3ye_PH_7el9vvnQyxJoKbh_4mQGctURVdLV0dSNlRRVVJESjc4SjFETk9GUFNDUC4u" target="_blank">Quiz</a>
+            </div>
+        </div>
+
+        <!-- Module 5 (new one) -->
+        <div class="module">
+            <div class="pill">Neuroscience</div>
+            <div class="module-text">
+                <a href="https://pinellascountyschools-my.sharepoint.com/:p:/r/personal/fc_3m_pcsb_org/_layouts/15/Doc.aspx?sourcedoc=%7BB1B58122-671F-4168-821E-C12A4A931CA6%7D&file=Neuroscience.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1&ct=1765293379159&wdOrigin=OFFICECOM-WEB.MAIN.EDGEWORTH&cid=49299570-9b91-4d1a-9cb2-9ab9ae510abb&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=4ce576a7-d4d1-4924-97ae-099a22f587bd" target="_blank">Lesson</a>
+                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=BZM8c9c5GkaGb_3ye_PH_7el9vvnQyxJoKbh_4mQGctUQzZFMlFMVVJUVzRaVzRXQ1FXMEFOODNXSi4u" target="_blank">Quiz</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
